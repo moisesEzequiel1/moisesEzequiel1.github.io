@@ -1,22 +1,16 @@
-.navbar{
-    box-shadow: 2px 2px 5px #000;
-    opacity: .9 ;
-}
-
-.navbar .nav-item .nav-link {
-    color: #fff
-}
-
 .main-header{
     position: relative;
     background: url(../img/background.png);
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     min-height: 600px;
 
 }
 .background-overlay{
     position: absolute;
-    background: rgba(58, 227, 116, .4);
+    background: rgba(58, 227, 116, .1);
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +18,11 @@
 }
 
 
-.
+.himg{
+    object-fit: cover;
+    height: 300px;
+    width: auto; 
+
 
 
 
