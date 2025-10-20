@@ -1,0 +1,19 @@
+baseURL = "https://moisesEzequiel1.github.io/"
+languageCode = "en"
+title = "Moises Dominguez - CV & Blog"
+theme = "PaperMod"
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  author = "Moises Dominguez"
+  description = "Professional CV and Blog of Moises Dominguez"
+  showMenu = true
+  defaultTheme = "dark"  
+  enableSRI = false
+
+[social]
+  github = "https://github.com/moisesEzequiel1"
+  gitlab = "https://gitlab.com/moisesEzequiel11"
+  linkedin = "https://www.linkedin.com/in/moises-ezequiel-dominguez-salcedo-455b771b4/"
+
