@@ -1,19 +1,25 @@
 baseURL = "https://moisesEzequiel1.github.io/"
-languageCode = "en"
-title = "Moises Dominguez - CV & Blog"
+languageCode = "en-us"
+title = "Moises Dominguez"
 theme = "PaperMod"
-relativeURLs = true
-canonifyURLs = true
+buildFuture = true
 
 [params]
   author = "Moises Dominguez"
-  description = "Professional CV and Blog of Moises Dominguez"
+  description = "CV and Blog of Moises Dominguez"
   showMenu = true
-  defaultTheme = "dark"  
-  enableSRI = false
+  homeInfoMode = true
+  showRecentOnHome = false
 
 [social]
   github = "https://github.com/moisesEzequiel1"
   gitlab = "https://gitlab.com/moisesEzequiel11"
   linkedin = "https://www.linkedin.com/in/moises-ezequiel-dominguez-salcedo-455b771b4/"
 
+
+[params.homeInfoParams]
+Title = "Hi, I'm Moises Dominguez 👋"
+Content = """Embedded Software Engineer
+Location: Matamoros, Tamaulipas
+
+[View CV](cv/) | [Read Blog](blog/)"""

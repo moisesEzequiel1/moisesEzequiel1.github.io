@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Curriculum Vitae | Moises Dominguez - CV &amp; Blog</title>
+<title>Curriculum Vitae | Moises Dominguez</title>
 <meta name="keywords" content="">
 <meta name="description" content="Moises Dominguez, Embedded &amp; Software Engineer
 Location: Matamoros, Tamaulipas
@@ -16,7 +16,7 @@ Professional Summary 💼
 Embedded Software Engineer with over 4 years of experience in embedded systems development, primarily focused on real-time automotive and industrial applications. Skilled in low-level C/C&#43;&#43; development on ARM Cortex-M0/M4 platforms, serial communication protocols (LIN, SPI, I2C, UART), and embedded RTOS. Experienced with Docker, WSL2, migration of proprietary toolchains, and workflow optimization. Strong advocate of best practices, version control, and static code analysis (MISRA).">
 <meta name="author" content="Moises Dominguez">
 <link rel="canonical" href="https://moisesEzequiel1.github.io/cv/">
-<link crossorigin="anonymous" href="../assets/css/stylesheet.a482bf00fa5c046040ef7973ad5fdf5657890cacb596c93f1382f664ca542074.css" integrity="sha256-pIK/APpcBGBA73lzrV/fVleJDKy1lsk/E4L2ZMpUIHQ=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a482bf00fa5c046040ef7973ad5fdf5657890cacb596c93f1382f664ca542074.css" integrity="sha256-pIK/APpcBGBA73lzrV/fVleJDKy1lsk/E4L2ZMpUIHQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://moisesEzequiel1.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://moisesEzequiel1.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://moisesEzequiel1.github.io/favicon-32x32.png">
@@ -34,18 +34,46 @@ Embedded Software Engineer with over 4 years of experience in embedded systems d
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="https://moisesEzequiel1.github.io/cv/">
-  <meta property="og:site_name" content="Moises Dominguez - CV & Blog">
+  <meta property="og:site_name" content="Moises Dominguez">
   <meta property="og:title" content="Curriculum Vitae">
   <meta property="og:description" content="Moises Dominguez, Embedded &amp; Software Engineer Location: Matamoros, Tamaulipas
 Phone: &#43;52 6671042767
 Email: dominguezsalcedom@gmail.com
 Professional Summary 💼 Embedded Software Engineer with over 4 years of experience in embedded systems development, primarily focused on real-time automotive and industrial applications. Skilled in low-level C/C&#43;&#43; development on ARM Cortex-M0/M4 platforms, serial communication protocols (LIN, SPI, I2C, UART), and embedded RTOS. Experienced with Docker, WSL2, migration of proprietary toolchains, and workflow optimization. Strong advocate of best practices, version control, and static code analysis (MISRA).">
-  <meta property="og:locale" content="en">
+  <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Curriculum Vitae">
-<meta name="twitter:description" content="Professional CV and Blog of Moises Dominguez">
+<meta name="twitter:description" content="CV and Blog of Moises Dominguez">
 
 
 <script type="application/ld+json">
@@ -64,10 +92,14 @@ Professional Summary 💼 Embedded Software Engineer with over 4 years of experi
 </script>
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -75,7 +107,7 @@ Professional Summary 💼 Embedded Software Engineer with over 4 years of experi
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://moisesEzequiel1.github.io/" accesskey="h" title="Moises Dominguez - CV &amp; Blog (Alt + H)">Moises Dominguez - CV &amp; Blog</a>
+            <a href="https://moisesEzequiel1.github.io/" accesskey="h" title="Moises Dominguez (Alt + H)">Moises Dominguez</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -178,7 +210,7 @@ ESP32-based greenhouse monitoring system using MQTT, including AI-based soil moi
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://moisesEzequiel1.github.io/">Moises Dominguez - CV &amp; Blog</a></span> · 
+        <span>&copy; 2025 <a href="https://moisesEzequiel1.github.io/">Moises Dominguez</a></span> · 
 
     <span>
         Powered by

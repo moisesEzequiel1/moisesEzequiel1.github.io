@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IoT on Moises Dominguez</title>
+    <link>https://moisesEzequiel1.github.io/tags/iot/</link>
+    <description>Recent content in IoT on Moises Dominguez</description>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://moisesEzequiel1.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greenhouse Monitoring System</title>
+      <link>https://moisesEzequiel1.github.io/blog/greenhouse-monitoring/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://moisesEzequiel1.github.io/blog/greenhouse-monitoring/</guid>
+      <description>ESP32-based IoT greenhouse system using MQTT and AI for soil moisture prediction.</description>
+    </item>
+  </channel>
+</rss>
