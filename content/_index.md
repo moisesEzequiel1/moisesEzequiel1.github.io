@@ -9,7 +9,4 @@ weight: 1
 **Embedded & Software Engineer**  
 Location: Matamoros, Tamaulipas  
 
-
-# estos es para pruebas 
-
 [View CV](cv/) | [Read Blog](blog/)
